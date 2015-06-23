@@ -12,9 +12,9 @@ defined('_JEXEC') or die;
 // Include the syndicate functions only once
 require_once __DIR__ . '/helper.php';
 
-$list		= ModMenuHelper::getList($params);
-$base		= ModMenuHelper::getBase($params);
-$active		= ModMenuHelper::getActive($params);
+$list		= ModMenuIdMyGadgetHelper::getList($params);
+$base		= ModMenuIdMyGadgetHelper::getBase($params);
+$active		= ModMenuIdMyGadgetHelper::getActive($params);
 $active_id 	= $active->id;
 $path		= $base->tree;
 

@@ -7,16 +7,19 @@
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
  */
 
-defined('_JEXEC') or die;
+defined('_JEXEC') or die; 
 
 /**
  * Helper for mod_menu_idmygadget
+ * It is looking like this file will need to be almost identical to the mod_menu module's helper.php .
+ * I changed all occurrences of mod_menu to mod_menu_idmygadget and changed the class name accordingly.
+ * It is too soon to tell whether other changes will be needed....
  *
  * @package     Joomla.Site
  * @subpackage  mod_menu_idmygadget
  * @since       1.5
  */
-class ModMenuHelper
+class ModMenuIdMyGadgetHelper
 {
 	/**
 	 * Get a list of the menu items.
