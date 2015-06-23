@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
 	<name>mod_menu_idmygadget</name>
-	<author>Joomla! Project</author>
-	<creationDate>July 2004</creationDate>
-	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
+	<author>Joomla! Project and Tom W. Hartung</author>
+	<creationDate>July 2004-June 2015</creationDate>
+	<copyright>Copyright (C) 2005 - 2015 Joomoo Websites LLC. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>admin@joomla.org</authorEmail>
-	<authorUrl>www.joomla.org</authorUrl>
+	<authorUrl>www.tomwhartung.com</authorUrl>
 	<version>3.0.0</version>
-	<description>MOD_MENU_XML_DESCRIPTION</description>
+	<description>MOD_MENU_IDMYGADGET_XML_DESCRIPTION</description>
 	<files>
 		<filename module="mod_menu_idmygadget">mod_menu_idmygadget.php</filename>
 		<folder>tmpl</folder>
