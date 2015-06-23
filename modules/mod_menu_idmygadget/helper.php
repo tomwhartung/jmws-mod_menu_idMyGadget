@@ -1,7 +1,7 @@
 <?php
 /**
  * @package     Joomla.Site
- * @subpackage  mod_menu
+ * @subpackage  mod_menu_idmygadget
  *
  * @copyright   Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
  * @license     GNU General Public License version 2 or later; see LICENSE.txt
@@ -10,10 +10,10 @@
 defined('_JEXEC') or die;
 
 /**
- * Helper for mod_menu
+ * Helper for mod_menu_idmygadget
  *
  * @package     Joomla.Site
- * @subpackage  mod_menu
+ * @subpackage  mod_menu_idmygadget
  * @since       1.5
  */
 class ModMenuHelper
@@ -38,7 +38,7 @@ class ModMenuHelper
 		$levels = $user->getAuthorisedViewLevels();
 		asort($levels);
 		$key = 'menu_items' . $params . implode(',', $levels) . '.' . $base->id;
-		$cache = JFactory::getCache('mod_menu', '');
+		$cache = JFactory::getCache('mod_menu_idmygadget', '');
 
 		if (!($items = $cache->get($key)))
 		{
