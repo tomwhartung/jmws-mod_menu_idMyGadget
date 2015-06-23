@@ -14,7 +14,8 @@ global $jmwsIdMyGadget;
 ?>
 <?php // The menu class is deprecated. Use nav instead. ?>
 
-<?php if ( $jmwsIdMyGadget->getGadgetString() === JmwsIdMyGadget::GADGET_STRING_DESKTOP ) : ?>
+<?php if ( $jmwsIdMyGadget->getGadgetString() === JmwsIdMyGadget::GADGET_STRING_DESKTOP ||
+           $jmwsIdMyGadget->getGadgetString() === JmwsIdMyGadget::GADGET_STRING_TABLET ) : ?>
 	<ul class="nav menu<?php echo $class_sfx;?>"<?php
 		$tag = '';
 
@@ -107,5 +108,5 @@ global $jmwsIdMyGadget;
 	}
 	?></ul>
 <?php else : ?>
-	<p>No menu on phones and tablets</p>
+	<p>No menu here on phones</p>
 <?php endif; ?>
