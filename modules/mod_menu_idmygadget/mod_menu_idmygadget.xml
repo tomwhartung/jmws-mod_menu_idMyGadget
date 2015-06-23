@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
-	<name>mod_menu</name>
+	<name>mod_menu_idmygadget</name>
 	<author>Joomla! Project</author>
 	<creationDate>July 2004</creationDate>
 	<copyright>Copyright (C) 2005 - 2015 Open Source Matters. All rights reserved.</copyright>
@@ -10,14 +10,14 @@
 	<version>3.0.0</version>
 	<description>MOD_MENU_XML_DESCRIPTION</description>
 	<files>
-		<filename module="mod_menu">mod_menu.php</filename>
+		<filename module="mod_menu_idmygadget">mod_menu_idmygadget.php</filename>
 		<folder>tmpl</folder>
 		<filename>helper.php</filename>
-		<filename>mod_menu.xml</filename>
+		<filename>mod_menu_idmygadget.xml</filename>
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.mod_menu.ini</language>
-		<language tag="en-GB">en-GB.mod_menu.sys.ini</language>
+		<language tag="en-GB">en-GB.mod_menu_idmygadget.ini</language>
+		<language tag="en-GB">en-GB.mod_menu_idmygadget.sys.ini</language>
 	</languages>
 	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_MENU" />
 	<config>
