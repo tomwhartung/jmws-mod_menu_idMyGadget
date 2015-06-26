@@ -144,6 +144,23 @@
 						value="itemid"></option>
 				</field>
 			</fieldset>
+
+			<fieldset
+				name="IdMyGadget">
+				<field
+					name="jqm_data_theme"
+					type="list"
+					label="MOD_MENU_IDMYGADGET_FIELD_JQM_DATA_THEME_LABEL"
+					description="MOD_MENU_IDMYGADGET_FIELD_JQM_DATA_THEME_DESC">
+					<option value="a">a</option>
+					<option value="b">b</option>
+					<option value="c">c</option>
+					<option value="d">d</option>
+					<option value="e">e</option>
+					<option value="f">f</option>
+				</field>
+			</fieldset>
+
 		</fields>
 	</config>
 </extension>
