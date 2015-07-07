@@ -12,7 +12,6 @@ global $jmwsIdMyGadget;
 
 // Note. It is important to remove spaces between elements.
 ?>
-<div><p>PhoneBurger Menu Right</p></div>
 <?php // The menu class is deprecated. Use nav instead. ?>
 <?php if ( $jmwsIdMyGadget->getGadgetString() === $jmwsIdMyGadget::GADGET_STRING_PHONE ) : ?>
 	<div data-role="page" id="phone-burger-menu-right">
