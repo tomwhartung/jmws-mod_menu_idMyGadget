@@ -16,7 +16,7 @@ global $jmwsIdMyGadget;
 <?php if ( $jmwsIdMyGadget->getGadgetString() === $jmwsIdMyGadget::GADGET_STRING_PHONE ) : ?>
 	<div data-role="page" id="phone-burger-menu-right">
 		<div data-role="content">
-			<ul class="nav menu<?php echo $class_sfx;?>"<?php
+			<ul class="nav menu<?php echo $class_sfx;?>" data-role="listview" <?php
 				$tag = '';
 
 				if ($params->get('tag_id') != null)
@@ -92,7 +92,7 @@ global $jmwsIdMyGadget;
 				// The next item is deeper.
 				if ($item->deeper)
 				{
-					echo '<ul class="nav-child unstyled small">';
+					echo '<ul class="nav-child unstyled small" data-role="listview">';
 				}
 				elseif ($item->shallower)
 				{
