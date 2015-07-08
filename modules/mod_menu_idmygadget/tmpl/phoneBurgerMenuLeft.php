@@ -15,6 +15,12 @@ global $jmwsIdMyGadget;
 <?php // The menu class is deprecated. Use nav instead. ?>
 <?php if ( $jmwsIdMyGadget->getGadgetString() === $jmwsIdMyGadget::GADGET_STRING_PHONE ) : ?>
 	<div data-role="page" id="phone-burger-menu-left">
+		<?php if ( $module->showtitle ) : ?>
+			<?php $headerTag = htmlspecialchars($params->get('header_tag', 'h3')); ?>
+			<div data-role="header" data-add-back-btn="true">
+				<?php echo '<' . $headerTag . ' class="' . $headerClass . '">' . $module->title . '</' . $headerTag . '>'?>
+			</div>
+		<?php endif; ?>
 		<div data-role="content">
 			<ul class="nav menu<?php echo $class_sfx;?>" data-role="listview" <?php
 				$tag = '';
