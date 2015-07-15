@@ -13,7 +13,7 @@ global $jmwsIdMyGadget;
 // Note. It is important to remove spaces between elements.
 ?>
 <?php // The menu class is deprecated. Use nav instead. ?>
-<?php if ( $jmwsIdMyGadget->getGadgetString() === $jmwsIdMyGadget::GADGET_STRING_PHONE ) : ?>
+<?php if ( $jmwsIdMyGadget->phoneBurgerIconThisDeviceLeft ) : ?>
 	<div data-role="page" id="phone-burger-menu-left">
 		<?php
 			if ( $module->showtitle )
