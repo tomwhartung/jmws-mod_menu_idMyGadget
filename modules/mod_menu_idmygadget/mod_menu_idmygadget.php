@@ -11,8 +11,10 @@ defined('_JEXEC') or die;
 
 // Include the syndicate functions only once
 require_once __DIR__ . '/helper.php';
-
-require_once __DIR__ . '/idMyGadget.php';  // if necessary, creates a $jmwsIdMyGadget object
+//
+// If necessary, create a $jmwsIdMyGadget object (else app crashes with a null pointer!):
+//
+require_once __DIR__ . '/idMyGadget.php';
 
 $list		= ModMenuIdMyGadgetHelper::getList($params);
 $base		= ModMenuIdMyGadgetHelper::getBase($params);

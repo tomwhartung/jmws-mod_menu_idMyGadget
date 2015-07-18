@@ -1,6 +1,7 @@
 <?php
 /**
- * Creates an object of the desired idMyGadget subclass and uses it for device detection.
+ * Defines a we can use to prevent crashing (with a null pointer error)
+ * when device detection is not readily available (ie. not using an idMyGadget template).
  */
 if( !defined('DS') )
 {
