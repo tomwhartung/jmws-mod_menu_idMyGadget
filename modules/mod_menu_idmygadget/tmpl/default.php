@@ -14,8 +14,10 @@ global $jmwsIdMyGadget;
 ?>
 <?php // The menu class is deprecated. Use nav instead. ?>
 
-<?php if ( $jmwsIdMyGadget->getGadgetString() === JmwsIdMyGadget::GADGET_STRING_DESKTOP ||
-           $jmwsIdMyGadget->getGadgetString() === JmwsIdMyGadget::GADGET_STRING_TABLET ) : ?>
+<?php
+	if ( $jmwsIdMyGadget->getGadgetString() === $jmwsIdMyGadget::GADGET_STRING_DESKTOP ||
+	     $jmwsIdMyGadget->getGadgetString() === $jmwsIdMyGadget::GADGET_STRING_TABLET ) :
+?>
 	<ul class="nav menu<?php echo $class_sfx;?>"<?php
 		$tag = '';
 
