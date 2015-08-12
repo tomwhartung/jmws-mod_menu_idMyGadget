@@ -107,6 +107,4 @@ global $jmwsIdMyGadget;
 	}
 	?></ul>
 	</div>
-<?php else : ?>
-	<p>No menu here on desktops and tablets</p>
 <?php endif; ?>

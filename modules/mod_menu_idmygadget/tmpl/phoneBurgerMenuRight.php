@@ -119,6 +119,4 @@ global $jmwsIdMyGadget;
 			?></ul>
 		</div> <!-- data-role: content -->
 	</div> <!-- data-role: page -->
-<?php else : ?>
-	<p>No menu here on desktops and tablets</p>
 <?php endif; ?>
