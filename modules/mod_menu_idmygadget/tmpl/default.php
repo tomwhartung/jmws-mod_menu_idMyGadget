@@ -109,6 +109,4 @@ global $jmwsIdMyGadget;
 		}
 	}
 	?></ul>
-<?php else : ?>
-	<p>No menu here on phones</p>
 <?php endif; ?>
