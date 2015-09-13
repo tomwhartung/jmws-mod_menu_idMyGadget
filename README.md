@@ -39,10 +39,32 @@ Create a menu like you always do.
 1. Extensions -> Modules
 2. New (Green button in upper left corner)
 3. Select IdMyGadget Menu for the Module Type
+4. Fill in the form as follows:
+   * Enter a Title, e.g. "Phone Footer Nav Demo"
+   * From the Select Menu dropdown, select the menu created previously
+   * From the Position dropdown, select "Phone Footer Nav [phone-footer-nav]
+   * Set the Show Sub-menu Items option to "No"
+   * When done, click on "Save"
+5. Click on the Advanced tab
+6. From the Alternative Layout dropdown, select "phoneFooterNav"
+7. Click on "Save & Close"
 
-### Phone Burger Nav
+### Hamburger Nav
 
-1. 
+There are two, the left and right are analogous yet separate.
+
+1. Extensions -> Modules
+2. New (Green button in upper left corner)
+3. Select IdMyGadget Menu for the Module Type
+4. Fill in the form as follows:
+   * Enter a Title, e.g. "Phone Burger Nav Demo"
+   * From the Select Menu dropdown, select the menu created previously
+   * From the Position dropdown, select "Phone Burger Nav [phone-Burger-?????????????????????????]
+   * Set the Show Sub-menu Items option to "No"
+   * When done, click on "Save"
+5. Click on the Advanced tab
+6. From the Alternative Layout dropdown, select "phoneBurger?????????????????????????"
+7. Click on "Save & Close"
 
 ## About IdMyGadget:
 
