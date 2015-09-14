@@ -57,13 +57,14 @@ There are two, the left and right are analogous yet separate.
 2. New (Green button in upper left corner)
 3. Select IdMyGadget Menu for the Module Type
 4. Fill in the form as follows:
-   * Enter a Title, e.g. "Phone Burger Nav Demo"
+   * Enter a Title, e.g. "Hamburger Nav Demo"
    * From the Select Menu dropdown, select the menu created previously
-   * From the Position dropdown, select "Phone Burger Nav [phone-Burger-?????????????????????????]
+   * From the Position dropdown, select "Phone Burger Menu Left [phone-burger-menu-left]" or 
+   "Phone Burger Menu Right [phone-burger-menu-right]" as appropriate
    * Set the Show Sub-menu Items option to "No"
    * When done, click on "Save"
 5. Click on the Advanced tab
-6. From the Alternative Layout dropdown, select "phoneBurger?????????????????????????"
+6. From the Alternative Layout dropdown, select "phoneBurgerMenuLeft" or "phoneBurgerMenuRight" as appropriate
 7. Click on "Save & Close"
 
 ## About IdMyGadget:
